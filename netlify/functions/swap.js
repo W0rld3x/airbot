@@ -1,9 +1,8 @@
-const { schedule } = require("@netlify/functions");
 const { ethers } = require("hardhat")
 require("dotenv").config()
 
 
-const SyncSwapRouter = require("./SyncSwapRouter.json");
+const SyncSwapRouter = require("../../SyncSwapRouter.json");
 
 const handler = async function () {
 
